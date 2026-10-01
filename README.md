@@ -5,7 +5,13 @@
 ## 快速开始
 
 1. 安装 OpenCode，并在本机完成可用模型 Provider 的登录/配置。
-2. 在本目录启动 OpenCode；更改 Agent 文件后，重启已有 OpenCode 会话。
+2. **先把当前目录切到本仓库根目录**；从工作区父目录进入时，在 PowerShell 执行：
+
+   ```powershell
+   Set-Location .\redmoon-pilot
+   ```
+
+   若仓库克隆到了其他位置，则进入那个克隆目录。OpenCode 只会读取当前 worktree 的 `.opencode/agents/`；在父目录启动时，`showrunner` 等项目 Agent 不会出现。更改 Agent 文件后，重启已有 OpenCode 会话。
 3. 检查 Agent 已载入：
 
    ```powershell
