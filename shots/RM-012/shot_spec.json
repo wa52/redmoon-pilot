@@ -1,0 +1,50 @@
+{
+  "shot_id": "RM-012",
+  "storyboard_revision": "pilot-v02",
+  "source_anchor": "第一章《回家》：母亲在窗边穿羊毛开襟衫打电话",
+  "text_status": "TEXT_CONFIRMED_IN_COPY_SCENE; VISUAL_CREATIVE_PROPOSAL",
+  "duration_seconds": 4,
+  "camera_motion": {
+    "zoom_start": 1.0,
+    "zoom_end": 1.03,
+    "center_start": [
+      0.55,
+      0.5
+    ],
+    "center_end": [
+      0.52,
+      0.5
+    ]
+  },
+  "audio_spec": {
+    "shot_id": "RM-012",
+    "duration_seconds": 4,
+    "camera": {
+      "zoom_start": 1.0,
+      "zoom_end": 1.03,
+      "center_start": [
+        0.55,
+        0.5
+      ],
+      "center_end": [
+        0.52,
+        0.5
+      ]
+    },
+    "ambience_gain": 0.011,
+    "bed": "living_room",
+    "foley": [
+      {
+        "kind": "phone_texture",
+        "offset_seconds": 0.2,
+        "duration_seconds": 3.5,
+        "level": 0.025,
+        "pan": 0.25
+      }
+    ]
+  },
+  "styleframe": "styleframe_v01.png",
+  "styleframe_sha256": "f25dfb65cb1053d866689e71ab2c747c6404faca159726ae11c2796ae60ea19e",
+  "production_status": "STYLEFRAME_ONLY; PER_SHOT_VIDEO_NOT_GENERATED",
+  "review_status": "NEEDS_REVIEW"
+}

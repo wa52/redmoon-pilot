@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "storyboard_revision": "pilot-v02",
+  "sequence_id": "RM-009-RM-018",
+  "status": "ANIMATIC_DRAFT",
+  "fps": 24,
+  "frame_size": [1280, 720],
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "bit_depth": 16,
+    "prototype_master_gain": 4.5,
+    "prototype_target_lufs": -24.0,
+    "dialogue_rendered": false,
+    "vocal_cues_rendered": false,
+    "unrendered_vocal_cues": ["VOX-PHONE-MURMUR-v01", "VOX-SISTER-CRY-LAUGH-v01"],
+    "master_status": "PROCEDURAL_SOUND_DESIGN_SKETCH",
+    "source": "Original procedural synthesis; no external samples or copied music."
+  },
+  "music_cues": [
+    {"motif_id": "MOTIF-HOME-v01", "at_seconds": 0.35, "notes_hz": [220.0, 277.18, 329.63], "note_seconds": 0.38, "gain": 0.035, "pan": 0.0},
+    {"motif_id": "MOTIF-HOME-v01", "at_seconds": 6.4, "notes_hz": [220.0, 277.18, 329.63], "note_seconds": 0.32, "gain": 0.028, "pan": -0.05},
+    {"motif_id": "MOTIF-HOME-v01", "at_seconds": 13.3, "notes_hz": [220.0, 277.18, 329.63], "note_seconds": 0.3, "gain": 0.023, "pan": 0.0},
+    {"motif_id": "MOTIF-HOME-v01", "at_seconds": 30.2, "notes_hz": [220.0, 277.18, 329.63], "note_seconds": 0.28, "gain": 0.018, "pan": 0.0},
+    {"motif_id": "MOTIF-RED-MOON-v01", "at_seconds": 34.25, "notes_hz": [110.0, 130.81, 164.81], "note_seconds": 0.46, "gain": 0.026, "pan": 0.0}
+  ],
+  "shots": [
+    {"shot_id": "RM-009", "duration_seconds": 3, "camera": {"zoom_start": 1.0, "zoom_end": 1.045, "center_start": [0.52, 0.50], "center_end": [0.50, 0.50]}, "ambience_gain": 0.012, "bed": "hall_to_home", "foley": [{"kind": "door_creak", "offset_seconds": 0.3, "duration_seconds": 0.7, "level": 0.11, "pan": 0.12}]},
+    {"shot_id": "RM-010", "duration_seconds": 3, "camera": {"zoom_start": 1.0, "zoom_end": 1.035, "center_start": [0.52, 0.50], "center_end": [0.48, 0.50]}, "ambience_gain": 0.016, "bed": "kitchen", "foley": [{"kind": "steam_hiss", "offset_seconds": 0.45, "duration_seconds": 0.7, "level": 0.10, "pan": -0.25}, {"kind": "steam_hiss", "offset_seconds": 2.0, "duration_seconds": 0.6, "level": 0.08, "pan": -0.25}]},
+    {"shot_id": "RM-011", "duration_seconds": 3, "camera": {"zoom_start": 1.0, "zoom_end": 1.035, "center_start": [0.48, 0.50], "center_end": [0.52, 0.50]}, "ambience_gain": 0.012, "bed": "living_room", "foley": [{"kind": "muffled_tv", "offset_seconds": 0.15, "duration_seconds": 2.7, "level": 0.035, "pan": 0.35}]},
+    {"shot_id": "RM-012", "duration_seconds": 4, "camera": {"zoom_start": 1.0, "zoom_end": 1.03, "center_start": [0.55, 0.50], "center_end": [0.52, 0.50]}, "ambience_gain": 0.011, "bed": "living_room", "foley": [{"kind": "phone_texture", "offset_seconds": 0.2, "duration_seconds": 3.5, "level": 0.025, "pan": 0.25}]},
+    {"shot_id": "RM-013", "duration_seconds": 4, "camera": {"zoom_start": 1.0, "zoom_end": 1.06, "center_start": [0.50, 0.54], "center_end": [0.50, 0.52]}, "ambience_gain": 0.010, "bed": "living_room", "foley": [{"kind": "fabric_rustle", "offset_seconds": 1.05, "duration_seconds": 0.6, "level": 0.10, "pan": 0.0}]},
+    {"shot_id": "RM-014", "duration_seconds": 4, "camera": {"zoom_start": 1.0, "zoom_end": 1.035, "center_start": [0.52, 0.52], "center_end": [0.48, 0.50]}, "ambience_gain": 0.010, "bed": "dinner_room", "foley": [{"kind": "tableware", "offset_seconds": 1.4, "duration_seconds": 0.18, "level": 0.045, "pan": 0.18}]},
+    {"shot_id": "RM-015", "duration_seconds": 4, "camera": {"zoom_start": 1.0, "zoom_end": 1.045, "center_start": [0.50, 0.50], "center_end": [0.52, 0.50]}, "ambience_gain": 0.009, "bed": "home_unsettled", "foley": [{"kind": "wood_tap", "offset_seconds": 0.55, "duration_seconds": 0.25, "level": 0.16, "pan": -0.35}, {"kind": "wood_tap", "offset_seconds": 1.55, "duration_seconds": 0.25, "level": 0.14, "pan": -0.35}, {"kind": "wood_tap", "offset_seconds": 2.55, "duration_seconds": 0.25, "level": 0.12, "pan": -0.35}, {"kind": "fabric_rustle", "offset_seconds": 1.0, "duration_seconds": 0.7, "level": 0.07, "pan": 0.4}]},
+    {"shot_id": "RM-016", "duration_seconds": 3, "camera": {"zoom_start": 1.0, "zoom_end": 1.04, "center_start": [0.54, 0.51], "center_end": [0.50, 0.50]}, "ambience_gain": 0.008, "bed": "home_waiting", "foley": [{"kind": "metal_click", "offset_seconds": 0.35, "duration_seconds": 0.16, "level": 0.12, "pan": -0.15}, {"kind": "door_thud", "offset_seconds": 1.8, "duration_seconds": 0.32, "level": 0.18, "pan": 0.05}]},
+    {"shot_id": "RM-017", "duration_seconds": 4, "camera": {"zoom_start": 1.0, "zoom_end": 1.04, "center_start": [0.50, 0.53], "center_end": [0.50, 0.50]}, "ambience_gain": 0.006, "bed": "home_waiting", "foley": []},
+    {"shot_id": "RM-018", "duration_seconds": 4, "camera": {"zoom_start": 1.0, "zoom_end": 1.045, "center_start": [0.52, 0.50], "center_end": [0.50, 0.50]}, "ambience_gain": 0.010, "bed": "home_return", "foley": [{"kind": "door_thud", "offset_seconds": 0.25, "duration_seconds": 0.32, "level": 0.13, "pan": -0.1}, {"kind": "fabric_rustle", "offset_seconds": 0.7, "duration_seconds": 0.45, "level": 0.05, "pan": -0.1}]}
+  ]
+}

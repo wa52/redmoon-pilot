@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "storyboard_revision": "pilot-v02",
+  "visual_status": "CREATIVE_PROPOSAL",
+  "model_workflow": "workflows/z_image_styleframe.api.json",
+  "workflow_bindings": {
+    "prompt": {"node": "5", "input": "text"},
+    "width": {"node": "7", "input": "width"},
+    "height": {"node": "7", "input": "height"},
+    "seed": {"node": "8", "input": "seed"},
+    "filename_prefix": {"node": "10", "input": "filename_prefix"}
+  },
+  "shared_style": "2D hand-painted anime keyframe with restrained 2.5D depth, authored linework, soft cel shading, layered painted background, psychologically restrained composition, cohesive character proportions across frames, no text, no logo, no watermark",
+  "shared_character_drafts": {
+    "luxin": "the same understated 23-year-old young adult man in a plain dark commuter jacket with a simple shoulder bag",
+    "sister": "the same younger sibling figure in simple home clothes",
+    "mother": "the same adult woman in the opening white wool cardigan",
+    "father": "the same adult man in a plain kitchen shirt and a practical plastic apron"
+  },
+  "shots": [
+    {
+      "shot_id": "RM-009",
+      "source_anchor": "第一章《回家》：冷清楼道与温暖室内的门槛反差",
+      "seed": 2026100109,
+      "prompt": "A quiet old apartment corridor at night, seen from the hallway facing a thick apartment door opening inward. The corridor is cool and dim; a modest lived-in home beyond the threshold glows with soft warm amber light, faint steam from a kitchen in the distance, cinematic negative space, no characters visible."
+    },
+    {
+      "shot_id": "RM-010",
+      "source_anchor": "第一章《回家》：父亲在厨房炖煮食物",
+      "seed": 2026100110,
+      "prompt": "Inside the same modest apartment kitchen, {father} works at a small stove, viewed in profile through soft steam from a pressure cooker. Warm soft interior light, ordinary family kitchen, no violence, no transformation, no graphic detail."
+    },
+    {
+      "shot_id": "RM-011",
+      "source_anchor": "第一章《回家》：妹妹在沙发看旧动画片、抱玩具",
+      "seed": 2026100111,
+      "prompt": "In the same warm living room, {sister} sits sideways on a sofa watching a small television and holding a brown plush bear. Snacks rest nearby. Keep the figure partly in profile with understated facial detail so the design remains provisional. The television shows soft indistinct color only, no recognizable copyrighted characters, no readable text."
+    },
+    {
+      "shot_id": "RM-012",
+      "source_anchor": "第一章《回家》：母亲在窗边穿羊毛开襟衫打电话",
+      "seed": 2026100112,
+      "prompt": "{mother} stands by the apartment window, speaking on a phone, composed and courteous. Frame her in three-quarter profile against the softly colored city lights; leave the white cardigan and window as clear visual anchors. Her hairstyle and face remain provisional, no supernatural effects."
+    },
+    {
+      "shot_id": "RM-013",
+      "source_anchor": "第一章《回家》：陆辛把买回来的棕色小熊交给妹妹",
+      "seed": 2026100113,
+      "prompt": "Close composition of {luxin} handing a small brown plush bear to {sister} at the sofa. Focus on hands, the shoulder bag at the frame edge, and the plush bear; faces are partial and provisional. Warm domestic light, restrained acting, no text, no extra characters."
+    },
+    {
+      "shot_id": "RM-014",
+      "source_anchor": "第一章《回家》：餐桌上四副碗筷、米饭与青色小菜",
+      "seed": 2026100214,
+      "prompt": "Medium-wide view of exactly four members of the same family seated around one modest dinner table, all with ordinary human proportions and consistent scale: {luxin} seated quietly; {sister} holding the same stitched brown plush bear; {father} at his place; {mother} in the white wool cardigan from the previous shots. Four place settings, rice and a few simple green vegetables, no meat visible. Clear tabletop geometry, warm soft light, subtle unease only through still composition, no extra characters, no horror creature."
+    },
+    {
+      "shot_id": "RM-015",
+      "source_anchor": "第一章《回家》：父亲剁骨、妹妹拆开玩具熊的并置",
+      "seed": 2026100215,
+      "prompt": "A medium-wide domestic composition with ordinary human scale and realistic character proportions. In the kitchen, {father} stands at the counter in a practical plastic apron and chops bones on a small wooden board; keep the hands, tool and action non-graphic. In the softer living-room background, {sister} sits on the sofa and carefully pulls apart the same brown plush bear. Keep their relative size normal, no enlarged body, no monster anatomy, no blood spray, no extra people, no readable text."
+    },
+    {
+      "shot_id": "RM-016",
+      "source_anchor": "第一章《回家》：母亲拿剪刀离开住所",
+      "seed": 2026100116,
+      "prompt": "{mother} seen from behind at the apartment entry, one hand taking a pair of household scissors from a drawer before she steps through the thick door. Frame the action neutrally with no view of the neighbor or any harm, warm room behind her, quiet threshold, no menace added by pose."
+    },
+    {
+      "shot_id": "RM-017",
+      "source_anchor": "第一章《回家》：陆辛独自坐在餐桌旁等待",
+      "seed": 2026100117,
+      "prompt": "{luxin} sits quietly at the dining table waiting, viewed over one shoulder, with several empty place settings and cooling food. The pressure-cooker steam has thinned; the living room remains visible beyond. Hold an ordinary, still composition, no explicit fear and no extra supernatural distortion."
+    },
+    {
+      "shot_id": "RM-018",
+      "source_anchor": "第一章《回家》：母亲返回，衣领下出现一处新鲜血迹",
+      "seed": 2026100118,
+      "prompt": "At the same apartment doorway, {mother} has returned. A small fresh red stain is visible near the white cardigan collar; keep it subtle and non-graphic. {luxin} is in the background. Do not show a victim, injury, attack or its cause; preserve the domestic room layout."
+    }
+  ]
+}

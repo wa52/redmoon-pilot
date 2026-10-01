@@ -11,7 +11,14 @@
 /cache/
 /runs/
 /renders/
+/assets/generated/
 /audio/generated/
+
+# OpenCode may bootstrap a local plugin SDK under this folder when listing agents.
+/.opencode/node_modules/
+/.opencode/package.json
+/.opencode/package-lock.json
+/.opencode/bun.lock
 
 # Python and editor/runtime caches.
 __pycache__/

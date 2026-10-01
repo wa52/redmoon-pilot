@@ -1,0 +1,93 @@
+{
+  "sequence_id": "RM-009-RM-018",
+  "status": "ANIMATIC_DRAFT_NEEDS_REVIEW",
+  "visual_review": {
+    "status": "NEEDS_REVIEW",
+    "coverage": "10-frame contact sheet plus high-resolution review of RM-010, RM-011, RM-013, RM-014, RM-015, RM-018",
+    "approved_assets": [],
+    "findings": [
+      {
+        "severity": "MAJOR",
+        "shot_ids": [
+          "RM-011",
+          "RM-013",
+          "RM-014"
+        ],
+        "issue": "Character identity is not yet stable enough across generated views; lock approved turnaround/reference sheets and use a reference-conditioned workflow before production-quality shots."
+      },
+      {
+        "severity": "MINOR",
+        "shot_ids": [
+          "RM-010",
+          "RM-015"
+        ],
+        "issue": "Father scale/framing changes substantially between the kitchen medium shot and chopping close shot; verify this is editorial perspective rather than an identity or body-proportion drift."
+      }
+    ],
+    "reviewer_scope": "Assistant visual pre-review; user art-direction approval still required"
+  },
+  "audio_review": {
+    "technical_status": "PASS",
+    "perceptual_status": "UNVERIFIED",
+    "evidence": "FFmpeg decoded the 36.00-second H.264/AAC 1280x720 24fps file successfully; WAV/MP4 are 48kHz stereo. EBU R128 measurement: -23.8 LUFS integrated, -6.9 dBFS true peak.",
+    "notes": "No intelligible dialogue or character vocal cues were generated. Continuous human listening is still required; technical checks do not establish aesthetic or emotional approval."
+  },
+  "video": {
+    "path": "assets/generated/RM-009-RM-018_animatic_v01.mp4",
+    "sha256": "bcc1e17e8637230d11cedf27ba8b8eafd0f30f6249e0188faa92abcf5efa73cc",
+    "fps": 24,
+    "frames": 864,
+    "duration_seconds": 36.0
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 36.0,
+    "stems": {
+      "ambience": {
+        "path": "assets/generated/animatic_ambience_v01.wav",
+        "sha256": "4f1335f60342c75fbaa7099592d729ca3e883e7493ac5f97593aea99eb3c8039",
+        "peak": 0.005107596982270479,
+        "rms": 0.0006910507163574779,
+        "rms_dbfs": -63.20980156985512
+      },
+      "music": {
+        "path": "assets/generated/animatic_music_v01.wav",
+        "sha256": "4ae3238fd5983e0a5d63f16d51f03955d58c1924e66f9cf3fb469c552c97cea5",
+        "peak": 0.023660460487008095,
+        "rms": 0.0024954029876563272,
+        "rms_dbfs": -52.057186185718685
+      },
+      "foley": {
+        "path": "assets/generated/animatic_foley_v01.wav",
+        "sha256": "f09b88d40d1d5e14c220df042b5f6447e2a244df5c7d7fe7d5bb7471e6368967",
+        "peak": 0.09524248540401459,
+        "rms": 0.007007156941968044,
+        "rms_dbfs": -43.089163106764985
+      }
+    },
+    "mix": {
+      "path": "assets/generated/animatic_mix_v01.wav",
+      "sha256": "509ae87433d7a29bf5931ab1d26c17e9960bf8d38d1ed3c2318f97bf9995411e",
+      "peak": 0.45365095138549805,
+      "rms": 0.03359197355748872,
+      "rms_dbfs": -29.475289604650044,
+      "prototype_master_gain": 4.5
+    },
+    "mix_status": "PROCEDURAL_DRAFT_UNREVIEWED"
+  },
+  "input_frame_hashes": [
+    "5fcb33c3c9cd8487ae5510e063d98e7443d23f0906d37bee7e9cd86d12b1e42b",
+    "fecd2c3accc596abf5e8987c1d4ab7d98a4c1063d9df150060c2228ffe5e5240",
+    "cfbd0894409e2684a601374a62e7c6e01a8e117f7c964db79e696c111db6f39f",
+    "f25dfb65cb1053d866689e71ab2c747c6404faca159726ae11c2796ae60ea19e",
+    "8129adabe3ca125df2db44b7aa2c58c42a9f300b33aa61cda81766947e14ea7e",
+    "d21fbf52ba4e707dc97e5650a3dbfe76664ca05b9c55a826f9f745a929c618a3",
+    "8beae3e99988fcc3a17bfbe91cfbc0b3327a98446fdcb0fc896dd14d8d65be65",
+    "14aa2bc921a0964bdd13c098e131056aa189b6ea0144b1b2df4fdd92f50f01b9",
+    "7622a709175663691395306809bf23f6deaf49f9c0e1f57d7d88ebda0f5f6d6f",
+    "3fb86e654373dde907bd426f0013084e002108c61bfa4a3662859cab6f4772a0"
+  ],
+  "source_archive_included": false,
+  "generated_media_rights": "Procedural/locally-generated draft assets; adaptation and publication rights remain unverified."
+}

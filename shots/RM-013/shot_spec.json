@@ -1,0 +1,50 @@
+{
+  "shot_id": "RM-013",
+  "storyboard_revision": "pilot-v02",
+  "source_anchor": "第一章《回家》：陆辛把买回来的棕色小熊交给妹妹",
+  "text_status": "TEXT_CONFIRMED_IN_COPY_SCENE; VISUAL_CREATIVE_PROPOSAL",
+  "duration_seconds": 4,
+  "camera_motion": {
+    "zoom_start": 1.0,
+    "zoom_end": 1.06,
+    "center_start": [
+      0.5,
+      0.54
+    ],
+    "center_end": [
+      0.5,
+      0.52
+    ]
+  },
+  "audio_spec": {
+    "shot_id": "RM-013",
+    "duration_seconds": 4,
+    "camera": {
+      "zoom_start": 1.0,
+      "zoom_end": 1.06,
+      "center_start": [
+        0.5,
+        0.54
+      ],
+      "center_end": [
+        0.5,
+        0.52
+      ]
+    },
+    "ambience_gain": 0.01,
+    "bed": "living_room",
+    "foley": [
+      {
+        "kind": "fabric_rustle",
+        "offset_seconds": 1.05,
+        "duration_seconds": 0.6,
+        "level": 0.1,
+        "pan": 0.0
+      }
+    ]
+  },
+  "styleframe": "styleframe_v01.png",
+  "styleframe_sha256": "8129adabe3ca125df2db44b7aa2c58c42a9f300b33aa61cda81766947e14ea7e",
+  "production_status": "STYLEFRAME_ONLY; PER_SHOT_VIDEO_NOT_GENERATED",
+  "review_status": "NEEDS_REVIEW"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "prompt_id": "fd8268a6-cb40-43ee-8252-fc2117c120b6",
+  "seed": 2026100118,
+  "prompt": "2D hand-painted anime keyframe with restrained 2.5D depth, authored linework, soft cel shading, layered painted background, psychologically restrained composition, cohesive character proportions across frames, no text, no logo, no watermark. At the same apartment doorway, the same adult woman in the opening white wool cardigan has returned. A small fresh red stain is visible near the white cardigan collar; keep it subtle and non-graphic. the same understated 23-year-old young adult man in a plain dark commuter jacket with a simple shoulder bag is in the background. Do not show a victim, injury, attack or its cause; preserve the domestic room layout.",
+  "models": {
+    "unet": "z_image_turbo_bf16.safetensors",
+    "text_encoder": "Qwen3-4B-UD-Q6_K_XL.gguf",
+    "vae": "z-image-ae.safetensors"
+  },
+  "dimensions": [
+    1024,
+    576
+  ],
+  "workflow": "../../workflows/z_image_styleframe.api.json",
+  "workflow_sha256": "a92a0fe9f04d7c357d60981892317957142dcd082b67eb76df1c1f9b70f9e587",
+  "output_sha256": "3fb86e654373dde907bd426f0013084e002108c61bfa4a3662859cab6f4772a0",
+  "local_endpoint_omitted_from_public_record": true
+}

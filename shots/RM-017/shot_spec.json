@@ -1,0 +1,42 @@
+{
+  "shot_id": "RM-017",
+  "storyboard_revision": "pilot-v02",
+  "source_anchor": "第一章《回家》：陆辛独自坐在餐桌旁等待",
+  "text_status": "TEXT_CONFIRMED_IN_COPY_SCENE; VISUAL_CREATIVE_PROPOSAL",
+  "duration_seconds": 4,
+  "camera_motion": {
+    "zoom_start": 1.0,
+    "zoom_end": 1.04,
+    "center_start": [
+      0.5,
+      0.53
+    ],
+    "center_end": [
+      0.5,
+      0.5
+    ]
+  },
+  "audio_spec": {
+    "shot_id": "RM-017",
+    "duration_seconds": 4,
+    "camera": {
+      "zoom_start": 1.0,
+      "zoom_end": 1.04,
+      "center_start": [
+        0.5,
+        0.53
+      ],
+      "center_end": [
+        0.5,
+        0.5
+      ]
+    },
+    "ambience_gain": 0.006,
+    "bed": "home_waiting",
+    "foley": []
+  },
+  "styleframe": "styleframe_v01.png",
+  "styleframe_sha256": "7622a709175663691395306809bf23f6deaf49f9c0e1f57d7d88ebda0f5f6d6f",
+  "production_status": "STYLEFRAME_ONLY; PER_SHOT_VIDEO_NOT_GENERATED",
+  "review_status": "NEEDS_REVIEW"
+}

@@ -1,0 +1,50 @@
+{
+  "shot_id": "RM-009",
+  "storyboard_revision": "pilot-v02",
+  "source_anchor": "第一章《回家》：冷清楼道与温暖室内的门槛反差",
+  "text_status": "TEXT_CONFIRMED_IN_COPY_SCENE; VISUAL_CREATIVE_PROPOSAL",
+  "duration_seconds": 3,
+  "camera_motion": {
+    "zoom_start": 1.0,
+    "zoom_end": 1.045,
+    "center_start": [
+      0.52,
+      0.5
+    ],
+    "center_end": [
+      0.5,
+      0.5
+    ]
+  },
+  "audio_spec": {
+    "shot_id": "RM-009",
+    "duration_seconds": 3,
+    "camera": {
+      "zoom_start": 1.0,
+      "zoom_end": 1.045,
+      "center_start": [
+        0.52,
+        0.5
+      ],
+      "center_end": [
+        0.5,
+        0.5
+      ]
+    },
+    "ambience_gain": 0.012,
+    "bed": "hall_to_home",
+    "foley": [
+      {
+        "kind": "door_creak",
+        "offset_seconds": 0.3,
+        "duration_seconds": 0.7,
+        "level": 0.11,
+        "pan": 0.12
+      }
+    ]
+  },
+  "styleframe": "styleframe_v01.png",
+  "styleframe_sha256": "5fcb33c3c9cd8487ae5510e063d98e7443d23f0906d37bee7e9cd86d12b1e42b",
+  "production_status": "STYLEFRAME_ONLY; PER_SHOT_VIDEO_NOT_GENERATED",
+  "review_status": "NEEDS_REVIEW"
+}

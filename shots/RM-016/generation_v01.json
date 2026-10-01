@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "prompt_id": "9a5cd429-e463-40bd-a13d-b581f867674d",
+  "seed": 2026100116,
+  "prompt": "2D hand-painted anime keyframe with restrained 2.5D depth, authored linework, soft cel shading, layered painted background, psychologically restrained composition, cohesive character proportions across frames, no text, no logo, no watermark. the same adult woman in the opening white wool cardigan seen from behind at the apartment entry, one hand taking a pair of household scissors from a drawer before she steps through the thick door. Frame the action neutrally with no view of the neighbor or any harm, warm room behind her, quiet threshold, no menace added by pose.",
+  "models": {
+    "unet": "z_image_turbo_bf16.safetensors",
+    "text_encoder": "Qwen3-4B-UD-Q6_K_XL.gguf",
+    "vae": "z-image-ae.safetensors"
+  },
+  "dimensions": [
+    1024,
+    576
+  ],
+  "workflow": "../../workflows/z_image_styleframe.api.json",
+  "workflow_sha256": "a92a0fe9f04d7c357d60981892317957142dcd082b67eb76df1c1f9b70f9e587",
+  "output_sha256": "14aa2bc921a0964bdd13c098e131056aa189b6ea0144b1b2df4fdd92f50f01b9",
+  "local_endpoint_omitted_from_public_record": true
+}

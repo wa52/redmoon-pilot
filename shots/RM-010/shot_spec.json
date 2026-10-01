@@ -1,0 +1,57 @@
+{
+  "shot_id": "RM-010",
+  "storyboard_revision": "pilot-v02",
+  "source_anchor": "第一章《回家》：父亲在厨房炖煮食物",
+  "text_status": "TEXT_CONFIRMED_IN_COPY_SCENE; VISUAL_CREATIVE_PROPOSAL",
+  "duration_seconds": 3,
+  "camera_motion": {
+    "zoom_start": 1.0,
+    "zoom_end": 1.035,
+    "center_start": [
+      0.52,
+      0.5
+    ],
+    "center_end": [
+      0.48,
+      0.5
+    ]
+  },
+  "audio_spec": {
+    "shot_id": "RM-010",
+    "duration_seconds": 3,
+    "camera": {
+      "zoom_start": 1.0,
+      "zoom_end": 1.035,
+      "center_start": [
+        0.52,
+        0.5
+      ],
+      "center_end": [
+        0.48,
+        0.5
+      ]
+    },
+    "ambience_gain": 0.016,
+    "bed": "kitchen",
+    "foley": [
+      {
+        "kind": "steam_hiss",
+        "offset_seconds": 0.45,
+        "duration_seconds": 0.7,
+        "level": 0.1,
+        "pan": -0.25
+      },
+      {
+        "kind": "steam_hiss",
+        "offset_seconds": 2.0,
+        "duration_seconds": 0.6,
+        "level": 0.08,
+        "pan": -0.25
+      }
+    ]
+  },
+  "styleframe": "styleframe_v01.png",
+  "styleframe_sha256": "fecd2c3accc596abf5e8987c1d4ab7d98a4c1063d9df150060c2228ffe5e5240",
+  "production_status": "STYLEFRAME_ONLY; PER_SHOT_VIDEO_NOT_GENERATED",
+  "review_status": "NEEDS_REVIEW"
+}

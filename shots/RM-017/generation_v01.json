@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "prompt_id": "ecb7f39e-8b27-45f8-a2b9-6c8b77a799f5",
+  "seed": 2026100117,
+  "prompt": "2D hand-painted anime keyframe with restrained 2.5D depth, authored linework, soft cel shading, layered painted background, psychologically restrained composition, cohesive character proportions across frames, no text, no logo, no watermark. the same understated 23-year-old young adult man in a plain dark commuter jacket with a simple shoulder bag sits quietly at the dining table waiting, viewed over one shoulder, with several empty place settings and cooling food. The pressure-cooker steam has thinned; the living room remains visible beyond. Hold an ordinary, still composition, no explicit fear and no extra supernatural distortion.",
+  "models": {
+    "unet": "z_image_turbo_bf16.safetensors",
+    "text_encoder": "Qwen3-4B-UD-Q6_K_XL.gguf",
+    "vae": "z-image-ae.safetensors"
+  },
+  "dimensions": [
+    1024,
+    576
+  ],
+  "workflow": "../../workflows/z_image_styleframe.api.json",
+  "workflow_sha256": "a92a0fe9f04d7c357d60981892317957142dcd082b67eb76df1c1f9b70f9e587",
+  "output_sha256": "7622a709175663691395306809bf23f6deaf49f9c0e1f57d7d88ebda0f5f6d6f",
+  "local_endpoint_omitted_from_public_record": true
+}

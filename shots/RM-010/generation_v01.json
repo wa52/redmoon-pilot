@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "prompt_id": "182eca47-38dd-4717-8048-f809452565ba",
+  "seed": 2026100110,
+  "prompt": "2D hand-painted anime keyframe with restrained 2.5D depth, authored linework, soft cel shading, layered painted background, psychologically restrained composition, cohesive character proportions across frames, no text, no logo, no watermark. Inside the same modest apartment kitchen, the same adult man in a plain kitchen shirt and a practical plastic apron works at a small stove, viewed in profile through soft steam from a pressure cooker. Warm soft interior light, ordinary family kitchen, no violence, no transformation, no graphic detail.",
+  "models": {
+    "unet": "z_image_turbo_bf16.safetensors",
+    "text_encoder": "Qwen3-4B-UD-Q6_K_XL.gguf",
+    "vae": "z-image-ae.safetensors"
+  },
+  "dimensions": [
+    1024,
+    576
+  ],
+  "workflow": "../../workflows/z_image_styleframe.api.json",
+  "workflow_sha256": "a92a0fe9f04d7c357d60981892317957142dcd082b67eb76df1c1f9b70f9e587",
+  "output_sha256": "fecd2c3accc596abf5e8987c1d4ab7d98a4c1063d9df150060c2228ffe5e5240",
+  "local_endpoint_omitted_from_public_record": true
+}

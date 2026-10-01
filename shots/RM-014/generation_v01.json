@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "prompt_id": "cf2ce38c-28f5-42e6-98f0-3d140ab7b32a",
+  "seed": 2026100214,
+  "prompt": "2D hand-painted anime keyframe with restrained 2.5D depth, authored linework, soft cel shading, layered painted background, psychologically restrained composition, cohesive character proportions across frames, no text, no logo, no watermark. Medium-wide view of exactly four members of the same family seated around one modest dinner table, all with ordinary human proportions and consistent scale: the same understated 23-year-old young adult man in a plain dark commuter jacket with a simple shoulder bag seated quietly; the same younger sibling figure in simple home clothes holding the same stitched brown plush bear; the same adult man in a plain kitchen shirt and a practical plastic apron at his place; the same adult woman in the opening white wool cardigan in the white wool cardigan from the previous shots. Four place settings, rice and a few simple green vegetables, no meat visible. Clear tabletop geometry, warm soft light, subtle unease only through still composition, no extra characters, no horror creature.",
+  "models": {
+    "unet": "z_image_turbo_bf16.safetensors",
+    "text_encoder": "Qwen3-4B-UD-Q6_K_XL.gguf",
+    "vae": "z-image-ae.safetensors"
+  },
+  "dimensions": [
+    1024,
+    576
+  ],
+  "workflow": "../../workflows/z_image_styleframe.api.json",
+  "workflow_sha256": "a92a0fe9f04d7c357d60981892317957142dcd082b67eb76df1c1f9b70f9e587",
+  "output_sha256": "d21fbf52ba4e707dc97e5650a3dbfe76664ca05b9c55a826f9f745a929c618a3",
+  "local_endpoint_omitted_from_public_record": true
+}

@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "prompt_id": "cbec50ed-b157-42fb-99c6-497b724f5adb",
+  "seed": 2026100215,
+  "prompt": "2D hand-painted anime keyframe with restrained 2.5D depth, authored linework, soft cel shading, layered painted background, psychologically restrained composition, cohesive character proportions across frames, no text, no logo, no watermark. A medium-wide domestic composition with ordinary human scale and realistic character proportions. In the kitchen, the same adult man in a plain kitchen shirt and a practical plastic apron stands at the counter in a practical plastic apron and chops bones on a small wooden board; keep the hands, tool and action non-graphic. In the softer living-room background, the same younger sibling figure in simple home clothes sits on the sofa and carefully pulls apart the same brown plush bear. Keep their relative size normal, no enlarged body, no monster anatomy, no blood spray, no extra people, no readable text.",
+  "models": {
+    "unet": "z_image_turbo_bf16.safetensors",
+    "text_encoder": "Qwen3-4B-UD-Q6_K_XL.gguf",
+    "vae": "z-image-ae.safetensors"
+  },
+  "dimensions": [
+    1024,
+    576
+  ],
+  "workflow": "../../workflows/z_image_styleframe.api.json",
+  "workflow_sha256": "a92a0fe9f04d7c357d60981892317957142dcd082b67eb76df1c1f9b70f9e587",
+  "output_sha256": "8beae3e99988fcc3a17bfbe91cfbc0b3327a98446fdcb0fc896dd14d8d65be65",
+  "local_endpoint_omitted_from_public_record": true
+}
