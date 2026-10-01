@@ -1,0 +1,18 @@
+# The user-supplied novel archive is outside the repository and must never be committed.
+/1-2203151F522.zip
+
+# Local secrets and machine-specific settings.
+.env
+.env.*
+!.env.example
+
+# Generated or large local production artifacts.
+/models/
+/cache/
+/runs/
+/renders/
+/audio/generated/
+
+# Python and editor/runtime caches.
+__pycache__/
+*.py[cod]
